@@ -1,0 +1,150 @@
+.detail-container {
+  max-width: 1000px;
+  width: 95%;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+.detail-title {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.detail-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.detail-label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.detail-value {
+  font-size: 16px;
+  color: #222;
+  font-weight: 500;
+}
+
+.detail-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.detail-section-label {
+  font-size: 15px;
+  color: #444;
+  font-weight: 700;
+}
+
+.detail-text-box,
+.detail-content-box,
+.file-list-box {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  background-color: #fafafa;
+  padding: 16px;
+}
+
+.detail-content-box {
+  min-height: 180px;
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.file-item:last-child {
+  border-bottom: none;
+}
+
+.file-link {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.file-link:hover {
+  color: #4a90e2;
+  text-decoration: underline;
+}
+
+.file-delete-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff6b6b;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.empty-file {
+  color: #777;
+}
+
+.detail-btn-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.detail-btn {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.detail-btn.list {
+  background-color: #6c757d;
+}
+
+.detail-btn.edit {
+  background-color: #4a90e2;
+}
+
+.detail-btn.delete {
+  background-color: #e74c3c;
+}
+
+.detail-loading {
+  text-align: center;
+  padding: 60px;
+  font-size: 18px;
+  color: #555;
+}
