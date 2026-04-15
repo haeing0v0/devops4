@@ -1,0 +1,162 @@
+.list-container {
+  max-width: 1000px;
+  width: 95%;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+.list-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.board-table th {
+  background-color: #f8f9fa;
+  color: #555;
+  padding: 16px;
+  border-bottom: 2px solid #edeff2;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.board-table td {
+  padding: 16px;
+  border-bottom: 1px solid #f1f3f5;
+  color: #444;
+  text-align: center;
+  font-size: 15px;
+}
+
+.th-num {
+  width: 80px;
+}
+
+.th-writer {
+  width: 120px;
+}
+
+.th-hit {
+  width: 80px;
+}
+.th-date {
+  width: 130px;
+}
+
+.board-table tbody tr {
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.board-table tbody tr:hover {
+  background-color: #f8fbff;
+}
+
+.td-subject {
+  text-align: left !important;
+  padding-left: 20px !important;
+}
+
+.title-link {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.title-link:hover {
+  color: #4a90e2;
+  text-decoration: underline;
+}
+
+.file-icon {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #888;
+}
+
+.no-date {
+  padding: 80px 0 !important;
+  color: #adb5bd !important;
+  font-size: 16px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 20xp;
+}
+
+.page-btn {
+  min-width: 38px;
+  height: 38px;
+  padding: 0 8px;
+  border: 1px solid #dee2e6;
+  background-color: #fff;
+  color: #495057;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.page-btn:hover:not(.active) {
+  background-color: #f1f3f5;
+  border-color: #ced4da;
+}
+
+.page-btn.active {
+  background-color: #4a90e2;
+  color: #fff;
+  border-color: #4a90e2;
+  cursor: default;
+}
+
+.page-btn.prev,
+.page-btn.next {
+  padding: 0 15px;
+  background-color: #f8f9fa;
+}
+
+.btn-area {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -38px;
+}
+
+.btn-write {
+  padding: 12px 28px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    transform 0.1s;
+}
+
+.btn-write:hover {
+  background-color: #357abd;
+}
+
+.btn-write:active {
+  transform: scale(0.9);
+}
